@@ -8,9 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Laralink">
   <!-- Favicon Icon -->
-  <link rel="icon" href="assets/images/maac_w_logo.png" />
+  <link rel="icon" href="assets/images/maac_w_logo.webp" />
   <!-- Site Title -->
   <title>MAAC CHANDIGARH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/plugins/slick.css">
   <link rel="stylesheet" href="assets/css/plugins/animate.css">
@@ -20,18 +23,18 @@
 <body class="cs-dark">
   <div class="cs-preloader cs-white_bg cs-center">
     <div class="cs-preloader_in">
-      <img src="assets/images/maac_w_logo.png" alt="Logo">
+      <img src="assets/images/maac_w_logo.webp" alt="Logo">
     </div>
   </div>
   <!-- Start Header Section -->
-  <header class="cs-site_header cs-style1 cs-sticky-header cs-primary_color">
+  <header class="cs-site_header cs-style1 cs-sticky-header cs-primary_color roboto">
     <div class="cs-main_header">
       <div class="container">
         <div class="cs-main_header_in">
           <div class="cs-main_header_left">
             <a class="cs-site_branding cs-accent_color" href="index.html">
               <img src="assets/img/logo.svg" alt="Logo" class="cs-hide_dark">
-              <img src="assets/images/maac_w_logo.png" alt="Logo" class="cs-hide_white" style="height:5rem;width:11rem">
+              <img src="assets/images/maac_w_logo.webp" alt="Logo" class="cs-hide_white" style="height:5rem;width:11rem">
             </a>
           </div>
           <div class="cs-main_header_center">
@@ -40,25 +43,27 @@
                 <li class="menu-item-has-children"><a href="#home" class="cs-smoth_scroll">Home</a>
                   <ul>
                     <li><a href="index.html">Default Home</a></li>
-                    <li><a href="index-2.html">Home Version-2</a></li>
-                    <li><a href="index-3.html">Home Version-3</a></li>
+                    <li><a href="https://maacchandigarh.in/" target="_blank">For VFX</a></li>
+                    <li><a href="https://maacchandigarh.com/" target="_blank">For 3D</a></li>
                   </ul>
                 </li>
+                <li><a href="#courses" class="cs-smoth_scroll">Courses</a></li>
                 <li><a href="#about" class="cs-smoth_scroll">About</a></li>
                 <li><a href="#roadmap" class="cs-smoth_scroll">Roadmap</a></li>
-                <li><a href="#team" class="cs-smoth_scroll">Team</a></li>
                 <li><a href="#faq" class="cs-smoth_scroll">FAQ</a></li>
-                <li><a href="#contact" class="cs-smoth_scroll">Contact</a></li>
+                <li><a href="#cnt" class="cs-smoth_scroll">Contact</a></li>
+                <!-- <li><img src="assets/images/ai_logo.webp" alt="Logo" class="cs-hide_white mt-3 ml-5" style="height:3rem;width:5rem"></li> -->
                 <!-- <li class="menu-item-has-children"><a href="#">Pages</a> -->
-                  <ul>
-                    <!-- <li><a href="blog.html">Blog Page</a></li> -->
-                    <!-- <li><a href="blog-details.html">Blog Details</a></li> -->
-                  </ul>
+                  <!-- <ul>
+                    <li><a href="blog.html">Blog Page</a></li>
+                    <li><a href="blog-details.html">Blog Details</a></li>
+                  </ul> -->
                 </li>
               </ul>
             </div>
           </div>
           <div class="cs-main_header_right">
+            
             <div class="cs-toolbox">
               <span class="cs-icon_btn cs-mode_btn">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
@@ -74,7 +79,10 @@
                   </path>
                 </svg>
               </span>
-              <span class="cs-btn cs-btn_filed cs-accent_btn cs-modal_btn" data-modal="connect_wallet">
+              <span class="cs-btn cs-btn_filed cs-accent_btn cs-modal_btn" data-modal="connect_wallet" >
+                <span style="border:2px solid white;padding:5px 30px;margin:-2px -9px;border-radius:6px;">
+
+                
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
                   role="img" class="iconify iconify--ion" width="1em" height="1em" viewBox="0 0 512 512">
                   <rect width="416" height="288" x="48" y="144" fill="none" stroke="currentColor"
@@ -83,7 +91,8 @@
                     d="M411.36 144v-30A50 50 0 0 0 352 64.9L88.64 109.85A50 50 0 0 0 48 159v49"></path>
                   <path fill="currentColor" d="M368 320a32 32 0 1 1 32-32a32 32 0 0 1-32 32Z"></path>
                 </svg> -->
-                <span>Connect</span>
+                <span >Enquiry</span>
+              </span>
               </span>
             </div>
           </div>
@@ -95,26 +104,23 @@
   <div class="cs-height_80 cs-height_lg_80"></div>
 
   <!-- Start Hero -->
-  <div class="cs-hero cs-style1 cs-type2 cs-bg text-center  cs-ripple_version" data-src="assets/images/banner.jpg"
+  <div class="cs-hero cs-style1 cs-type2 cs-bg text-center  cs-ripple_version" data-src="assets/images/banner.webp"
     id="home">
     <div class="cs-dark_overlay"></div>
-    <div class="container-fluid" style="margin-bottom:180px;color:white;margin-top:120px;">
+    <div class="container-fluid" style="margin-bottom:180px;color:rgba(255, 255, 255, 0.374);margin-top:120px;">
       <div class="row">
-        <div class="col-lg-6 col-md-3" style="padding:60px;font-family: 'Poppins', 'Roboto', 'Open Sans', 'Montserrat', sans-serif;">
+        <div class="col-lg-6 col-md-3" style="margin-left:10px;padding:60px;font-family: 'Poppins', 'Roboto', 'Open Sans', 'Montserrat', sans-serif;">
           <h3 style="text-align:left;">Best Graphic and Web Academy in Chandigarh</h3>
-          <h4 style="text-align:justify;font-size:16px;">Join the Best Graphic and Web Academy in Chandigarh and unlock your creative potential! Our expert-led
+          <p style="text-align:left;font-size:20px;">Join the Best Graphic and Web Academy in Chandigarh and unlock your creative potential! Our expert-led
              courses are designed to help you learn, create, and innovate in the dynamic fields of graphic design and web development.
-             Whether you're a beginner or looking to enhance your skills, we provide the perfect platform to turn your passion into a successful career</h4>
+             Whether you're a beginner or looking to enhance your skills, we provide the perfect platform to turn your passion into a successful career</p>
           
 
-          <button style=" margin-top:50px;   background-color: white;
-          border-radius: 40px;
-          color: black;
-          border: 2px solid white;font-weight:bold;">Get Started</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button style="    background-color: white;
-          border-radius: 40px;
-          color: black;
-          border: 2px solid white;font-weight:bold;">Read More</button>
+          <button class="mt-4" style="float:left;padding:10px;border-radius:6px;border-color: #954DF0;background: linear-gradient(45deg, #3C2575,#7A0EF2, #CBA0F9);">
+            <span style="border:2px solid #ffffff59;padding:5px 30px;border-radius:6px;color:white;">Get Started</span>
+          </button>
+         
+         
         </div>
        
        
@@ -127,7 +133,7 @@
   <!-- End Hero -->
   <div class="cs-height_100 cs-height_lg_70"></div>
   <!-- Start Services -->
-  <section>
+  <section id="courses">
     <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
       <div class="row">
         <div class="col-lg-4" id="modalTrigger">
@@ -328,7 +334,7 @@
           </div>
         </div>
         <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.35s">
-          <img src="assets/images/about.jpg" alt="">
+          <img src="assets/images/about.webp" alt="">
         </div>
       </div>
     </div>
@@ -365,10 +371,16 @@
             <div class="cs-card_in cs-light_bg">
               <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">Phase 1</h3>
               <div class="cs-height_5 cs-height_lg_5"></div>
-              <h2 class="cs-font_24 cs-font_16_sm cs-m0">Launch Collection</h2>
+              <h2 class="cs-font_24 cs-font_16_sm cs-m0">Graphic & Web Design
+              </h2>
               <div class="cs-height_10 cs-height_lg_10"></div>
-              <p class="cs-m0">There are many variations of pass ges of Lorem Ipsum available, but the majority have
-                suffered alterat ion in some form. There are many variations of passages.</p>
+              <p class="cs-m0">Courses: DGWA, APDMD, UI/UX Design</p>
+
+                <p>Graphic Design, UI/UX, Web & App Design, Motion Graphics</p>
+                
+                <p>AI in Design, Branding, Digital Storyboarding</p>
+               <p> Careers: Graphic Designer, UI/UX Designer, Web Designer
+                </p>
             </div>
           </div>
           <div class="cs-height_25 cs-height_lg_25"></div>
@@ -392,10 +404,11 @@
             <div class="cs-card_in cs-light_bg">
               <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">Phase 2</h3>
               <div class="cs-height_5 cs-height_lg_5"></div>
-              <h2 class="cs-font_24 cs-font_16_sm cs-m0">Community Build</h2>
+              <h2 class="cs-font_24 cs-font_16_sm cs-m0">3D Animation</h2>
               <div class="cs-height_10 cs-height_lg_10"></div>
-              <p class="cs-m0">There are many variations of pass ges of Lorem Ipsum available, but the majority have
-                suffered alterat ion in some form. There are many variations of passages.</p>
+              <p class="cs-m0">Course: APDMC
+              </p>
+              <p>Careers: 3D Artist, Animator</p>
             </div>
           </div>
           <div class="cs-height_25 cs-height_lg_25"></div>
@@ -419,10 +432,14 @@
             <div class="cs-card_in cs-light_bg">
               <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">Phase 3</h3>
               <div class="cs-height_5 cs-height_lg_5"></div>
-              <h2 class="cs-font_24 cs-font_16_sm cs-m0">Public Services</h2>
+              <h2 class="cs-font_24 cs-font_16_sm cs-m0">Video Editing & Motion Graphics
+              </h2>
               <div class="cs-height_10 cs-height_lg_10"></div>
-              <p class="cs-m0">There are many variations of pass ges of Lorem Ipsum available, but the majority have
-                suffered alterat ion in some form. There are many variations of passages.</p>
+              <p class="cs-m0">Course: Motion Graphics & Video Editing
+              </p>
+              <p>Video Editing, Compositing, Motion Graphics, BG Prep</p>
+               <p> Careers: Video Editor, Compositor, Motion Graphics Artist
+                </p>
             </div>
           </div>
           <div class="cs-height_25 cs-height_lg_25"></div>
@@ -446,10 +463,12 @@
             <div class="cs-card_in cs-light_bg">
               <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">Phase 4</h3>
               <div class="cs-height_5 cs-height_lg_5"></div>
-              <h2 class="cs-font_24 cs-font_16_sm cs-m0">The Next Generation</h2>
+              <h2 class="cs-font_24 cs-font_16_sm cs-m0">Portfolio & Placement
+              </h2>
               <div class="cs-height_10 cs-height_lg_10"></div>
-              <p class="cs-m0">There are many variations of pass ges of Lorem Ipsum available, but the majority have
-                suffered alterat ion in some form. There are many variations of passages.</p>
+              <p class="cs-m0">Industry projects, portfolio building, job assistance
+              </p>
+              <p>Optimized for SEO & user engagement</p>
             </div>
           </div>
           <div class="cs-height_25 cs-height_lg_25"></div>
@@ -467,8 +486,8 @@
         <div class="cs-light_bg text-center cs-radius_10">
           <div class="cs-height_60 cs-height_lg_60"></div>
           <div class="cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
-            <span data-count-to="365" class="odometer"></span></div>
-          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Total Items</p>
+            <span data-count-to="10" class="odometer"></span>k</div>
+          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">COURSE COMPLETE STUDENTS</p>
           <div class="cs-height_65 cs-height_lg_65"></div>
         </div>
         <div class="cs-height_25 cs-height_lg_25"></div>
@@ -477,8 +496,8 @@
         <div class="cs-light_bg text-center cs-radius_10">
           <div class="cs-height_60 cs-height_lg_60"></div>
           <div class="cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
-            <span data-count-to="1125" class="odometer"></span></div>
-          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Total Owners</p>
+            <span data-count-to="9500" class="odometer"></span>+</div>
+          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Placed Students</p>
           <div class="cs-height_65 cs-height_lg_65"></div>
         </div>
         <div class="cs-height_25 cs-height_lg_25"></div>
@@ -487,8 +506,8 @@
         <div class="cs-light_bg text-center cs-radius_10">
           <div class="cs-height_60 cs-height_lg_60"></div>
           <div class="cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
-            <span data-count-to="1.72" class="odometer"></span></div>
-          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Floor Price</p>
+            <span data-count-to="10" class="odometer"></span>+</div>
+          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Technical Faculties</p>
           <div class="cs-height_65 cs-height_lg_65"></div>
         </div>
         <div class="cs-height_25 cs-height_lg_25"></div>
@@ -497,8 +516,8 @@
         <div class="cs-light_bg text-center cs-radius_10">
           <div class="cs-height_60 cs-height_lg_60"></div>
           <div class="cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
-            <span data-count-to="42.2" class="odometer"></span>k</div>
-          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">Volume Traded</p>
+            <span data-count-to="64" class="odometer"></span>+</div>
+          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">International Awards</p>
           <div class="cs-height_65 cs-height_lg_65"></div>
         </div>
         <div class="cs-height_25 cs-height_lg_25"></div>
@@ -508,6 +527,7 @@
   <!-- End Fun Fact -->
   <div class="cs-height_70 cs-height_lg_40"></div>
   <!-- Start Tending Item -->
+   <section id="placements">
   <div class="cs-slider cs-style1 cs-gap-24 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="cs-slider_container" data-autoplay="1" data-loop="1" data-speed="600" data-center="1"
       data-fade-slide="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="3" data-md-slides="4"
@@ -520,63 +540,63 @@
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/DErU4Qtv9sD/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/sagar.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/sagar.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C_24dT2vCNR/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/sonia.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/sonia.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C-W7WwNvIFz/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/suminder.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/suminder.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C9T7zC4vqCj/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/anurag.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/anurag.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C8tVuxMvYbF/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/shaina.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/shaina.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C8Lvl2HviuP/"  target="_blank"class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/surbhi.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/surbhi.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C5nJj7bv2wG/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/kamal.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/kamal.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C5SaKshPCyz/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/harsh.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/harsh.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
         <div class="cs-slide">
           <a href="https://www.instagram.com/p/C4XV0qPPG5V/" target="_blank" class="cs-image_box cs-style2">
             <div class="cs-image_box_in cs-white_bg">
-              <div class="cs-image_box_img"><img src="assets/images/placement/sahil.png" alt="Product"></div>
+              <div class="cs-image_box_img"><img src="assets/images/placement/sahil.webp" alt="Product"></div>
             </div>
           </a>
         </div><!-- .cs-slide -->
@@ -682,9 +702,10 @@
     </div>
   </section> -->
   <!-- End Causes Seciton -->
-
+</section>
   
  <!--Seminar slider-->
+<section id="seminars">
  <div class="cs-seciton_heading cs-style1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
   
   <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm mb-4 mt-5">Our Seminars</h2>
@@ -701,43 +722,89 @@
           <img src="assets/images/seminar/seminar3.jpeg" alt="Image 1">
       </div>
       <div class="slide">
-        <img src="assets/images/seminar/seminar1.jpeg" alt="Image 1">
+        <img src="assets/images/seminar/seminar4.jpg" alt="Image 1">
     </div>
     <div class="slide">
-        <img src="assets/images/seminar/seminar2.jpeg" alt="Image 2">
+        <img src="assets/images/seminar/seminar5.jpg" alt="Image 2">
     </div>
     <div class="slide">
-        <img src="assets/images/seminar/seminar3.jpeg" alt="Image 1">
+        <img src="assets/images/seminar/seminar6.jpg" alt="Image 1">
     </div>
+    <div class="slide">
+      <img src="assets/images/seminar/seminar7.jpg" alt="Image 1">
+  </div>
+  <div class="slide">
+      <img src="assets/images/seminar/seminar8.jpg" alt="Image 2">
+  </div>
+  <div class="slide">
+      <img src="assets/images/seminar/seminar9.jpg" alt="Image 1">
+  </div>
+  <div class="slide">
+    <img src="assets/images/seminar/seminar10.jpg" alt="Image 1">
+</div>
   </div>
   <button class="prev" onclick="prevSlide()">&#10094;</button>
   <button class="next" onclick="nextSlide()">&#10095;</button>
 </div>
-
+</section>
  <!-- End Seminar slider-->
 
   <div class="cs-height_70 cs-height_lg_40"></div>
   <!-- Start Services -->
-  <section>
+  <section id="24fps">
     <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
       <div class="cs-seciton_heading cs-style1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
   
         <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm mb-4 mt-5">24 FPS International</h2>
+        <div class="cs-height_70 cs-height_lg_40"></div>
         <h3 class="">Animation Awards Multimedia Mania Students Work</h3>
       </div>
-      </div>
-      <div class="row" style="margin-left:180px;margin-right:180px;">
-        <div class="col-lg-4" >
-          <iframe width="400" height="315" src="https://www.youtube.com/embed/9axvZnEAgGw?si=TER_Yot7WBW1LIR1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+      <div class="container">
+      <div class="row" >
+        <div class="col-md-4 col-lg-4" >
+          <iframe width="400" height="315"  style="border:1px solid rgba(255, 255, 255, 0.464);box-shadow: 0px 0px 22px #b1989891;" src="https://www.youtube.com/embed/9axvZnEAgGw?si=TER_Yot7WBW1LIR1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div class="col-lg-4" >
-          <iframe width="400" height="315" src="https://www.youtube.com/embed/gO73MvyxNuY?si=J9fhZsOxXu3RfxIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-        <div class="col-lg-4" >
-          <iframe width="400" height="315" src="https://www.youtube.com/embed/g9IP8OZ0kZg?si=fg2LQMxp62Llk8GL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="col-md-4 col-lg-4">
+          <iframe width="400" height="315" style="border:1px solid rgba(255, 255, 255, 0.464);box-shadow: 0px 0px 22px #b1989891;" src="https://www.youtube.com/embed/gO73MvyxNuY?si=J9fhZsOxXu3RfxIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="col-md-4 col-lg-4">
+          <iframe width="400" height="315" style="border:1px solid rgba(255, 255, 255, 0.464);box-shadow: 0px 0px 22px #b1989891;"src="https://www.youtube.com/embed/g9IP8OZ0kZg?si=fg2LQMxp62Llk8GL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
        
 
-        
+        </div>
       </div>
+      </div>
+      <div class="cs-height_70 cs-height_lg_40"></div>
+    
+        <div class="cs-seciton_heading cs-style1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
+    
+          <!-- <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm mb-4 mt-5">24 FPS International</h2> -->
+          <h3 class="">UI / UX Students Work</h3>
+        </div>
+        
+        <div class="container" >
+        <div class="row" >
+          <div class="col-lg-6 col-md-6" >
+            <div class="cs-image_box_img" >
+              <a href="https://www.figma.com/proto/LmqNboEifWrn4GFpxakHRz/Jewel-Say-App?page-id=0%3A1&type=design&node-id=1036-1351&viewport=201%2C-179%2C0.25&t=4oIEyjOtiAgurhHO-1&scaling=scale-down&starting-point-node-id=893%3A905" target="_blank">
+              <img src="assets/images/ui1.jpg" class="img-fluid" alt="Product" style="height:25rem;width:38rem;border:1px solid rgba(255, 255, 255, 0.464);box-shadow: 0px 0px 22px #b1989891;">
+            </a>
+          </div>
+            </div>
+          
+          <div class="col-lg-6 col-md-6" >
+          
+            <div class="cs-image_box_img">
+              <a target="_blank" href="https://www.figma.com/proto/n4eBYvvB4mC7dRiYpkU9XT/Mantra-tours-and-travels-ui-design?node-id=1084-1482&node-type=frame&t=5YAhgkmUGl2FKpYO-1&scaling=scale-down&content-scaling=fixed&page-id=738%3A389&starting-point-node-id=740%3A390&show-proto-sidebar=1">
+              <img src="assets/images/ux.jpg" class="img-fluid"alt="Product" style="height:25rem;width:38rem;border:1px solid rgba(255, 255, 255, 0.464);box-shadow: 0px 0px 22px #b1989891;">
+            </a>
+            </div>
+          
+          </div>
+         
+  
+          </div>
+        </div>
      
     </div>
   </section>
@@ -747,7 +814,7 @@
     <div class="cs-height_95 cs-height_lg_65"></div>
     <div class="container">
       <div class="cs-seciton_heading cs-style1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
-        <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">FAQ</h3>
+        <!-- <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">FAQ</h3> -->
         <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">Still have questions?</h2>
       </div>
       <div class="cs-height_50 cs-height_lg_30"></div>
@@ -852,10 +919,11 @@
  
    
    <!--  Footer Section -->
+     <section id="cnt">
    <div class="cs-height_95 cs-height_lg_65"></div>
    <div class="container">
      <div class="cs-seciton_heading cs-style1 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
-       <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">CONTACT US</h3>
+       <!-- <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">CONTACT US</h3> -->
        <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">Authorized Certified Center</h2>
      </div>
 		
@@ -865,7 +933,7 @@
 			<div class="row">  
 		<div class="col-md-4 con_tent">
 		<div class="zirkpur">
-			<h1>Sector 34A</h1>
+			<h3>Sector 34A</h3>
 			<p>S.C.O 26-27, 3rd floor Sector 34 A Near PASSPORT OFFICE, Chandigarh,160022 </p>
 			<br>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.793047599798!2d76.76711341490277!3d30.724217893094416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedb3a3231575%3A0x1b590cad33a099a0!2sMaac%2034A-%20Animation%20Training%20in%20Chandigarh%20%2CVFX%2C%20Multimedia%2CTraining%20Course%2C%20video%20editing%20Institute%20%26%20Academy%20in%20chandigarh!5e0!3m2!1sen!2sin!4v1671478328569!5m2!1sen!2sin" width="100%"  style="border-radius: 2%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -881,7 +949,7 @@
 		</div>
 		<div class="col-md-4 con_tent">
 		<div class="zirkpur">
-			<h1>Sector 17</h1>
+			<h3>Sector 17</h3>
 			<p>S.C.O 76-77-78-79 2nd Floor, above Deepak Radio, Near Main Fountain, Sector 17D Chandigarh,160017 </p>
       <br>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.205379742095!2d76.77964051490311!3d30.740731992298485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0b00824735%3A0x1181e6d143122dff!2sMaac%2017D-Animation%20Training%20Institute%20in%20Chandigarh%2CMultimedia%2C%20Web%20Designing%20%26%20Graphic%20Designing%2C%20Gaming%20Designing!5e0!3m2!1sen!2sin!4v1671478611673!5m2!1sen!2sin" width="100%" style="border-radius: 2%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -897,7 +965,8 @@
 		</div>
 		<div class="col-md-4 con_tent">
 		<div class="zirkpur">
-			<h1>Zirakpur</h1>
+			<h3>Zirakpur</h3>
+      <br>
 			<p>UNIT NO.28, BLOCK-B 4TH FLOOR ,CHANDIGARH CITI CENTER, VIP ROAD,NEAR METRO CASH N CARRY ZIRAKPUR, 140603 </p>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.805480460839!2d76.8194428149009!3d30.639439197174326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390febb320973e3b%3A0xe91975768003b4e9!2sMaac%20Zirakpur!5e0!3m2!1sen!2sin!4v1671478794070!5m2!1sen!2sin" width="100%" style="border-radius: 2%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<p>Contact: <a href="tel:07303658358" style="--clr: #6eff3e;" class="border_3"> 07303658358</p>
@@ -914,7 +983,7 @@
 		<div class="footer_2">
 			<div class="row">
 		<div class="col-md-6 col-12">
-			<img src="assets/images/maac_w_logo.png" class="img-fluid" alt="" style="height:150px;width:250px;">
+			<img src="assets/images/maac_w_logo.webp" class="img-fluid" alt="" style="height:150px;width:250px;">
 			<p style="color: #FFFFFF;text-align: justify;margin-top: 2%;">Through its wide network of centres, MAAC has prepared thousands of students for careers in Animation, VFX, Filmmaking, Gaming, Web and Graphics Design. The Academy provides quality education through career-oriented courses, leading to top-notch job placements. MAAC has a dedicated Research & Development team consisting of industry professionals.</p>
 			</div>
 			<div class="col-md-3" style="margin: 25px 0;">
@@ -992,11 +1061,12 @@
 	</div>
 	
   </div>
+</section>
 
   <!-- Start Connect Modal -->
   <div class="cs-modal" data-modal="connect_wallet">
     <div class="cs-modal_in">
-      <div class="cs-modal_container cs-white_bg">
+      <div class="cs-modal_container cs-white_bg" style="background:rgba(0,0,0,0.6)">
         <button class="cs-close_modal cs-center cs-primary_bg">
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -1010,12 +1080,47 @@
          <form>
           <div class="mb-3">
               <label for="firstName" class="form-label">Name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="Enter your Name">
+              <input type="text" class="form-control" id="firstName" placeholder="Enter your Name" style="background:rgba(0,0,0,0.6);border-bottom:2px solid white !important;color:white;">
           </div>
+          <div class="mb-3">
+            <label for="em" class="form-label">Email</label>
+            <input type="text" class="form-control" id="em" placeholder="Enter your Name" style="background:rgba(0,0,0,0.6);border-bottom:2px solid white !important;color:white;">
+        </div>
+        
+      <div class="mb-4">
+        <label for="firstName" class="form-label">Contact No.</label>
+        <input type="text" class="form-control" id="firstName" placeholder="Enter your Name" style="background:rgba(0,0,0,0.6);border-bottom:2px solid white !important;color:white;">
+    </div>
+    <div class="mb-4">
+      <select class="form-control" style="background:rgba(0,0,0,0.6);border-bottom:2px solid white !important;color:white;">
+         <option>Select Course</option>
+         <option>Graphic Designing</option>
+         <option>UI/UX Design</option>
+         <option>Web Design</option>
+         <option>Web Development</option>
+         <option>Digital Marketing</option>
+         <option>Video Editing / Motion Graphics</option>
+     
+     
+
+      </select>
+     </div>
+     <div class="mb-3">
+      <select class="form-control" style="background:rgba(0,0,0,0.6);border-bottom:2px solid white !important;color:white;">
+         <option>Select Center</option>
+        <option>Sector 34 A</option>
+        <option>Sector 17 D</option>
+        <option>CCC Zirakpur</option>
+      </div>
+      
+    </select>
+
+    <input type="submit" value="SUBMIT" name="btn" style="background-color:#954DF0;border:1px solid white;width:100%;color:white;padding:5px;border-radius:6px;" class="mt-4">
+
       </form>
           <div class="cs-height_15 cs-height_lg_15"></div>
           <!-- <p class="cs-m0">Wallet are many variations of pass <br>ges of availabl.</p>  -->
-          <form method="post">
+        
           
         </div>
       </div>

@@ -51,16 +51,21 @@
 1. Typography
 ----------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body,
 html {
   color: #6C7C8C;
-  font-family: 'Inter', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6em;
   overflow-x: hidden;
   background-color: #F4F6F9;
 }
+
+
 
 h1,
 h2,
@@ -74,8 +79,10 @@ h6 {
   margin: 0 0 20px 0;
   font-weight: 600;
   line-height: 1.2em;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
+
+
 
 .cs-primary_font {
   letter-spacing: 0.02em;
@@ -169,7 +176,7 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: #0052FF;
+  color: #CBA0F9;
 }
 
 table {
@@ -327,7 +334,13 @@ kbd {
   cursor: pointer;
 }
 
-
+/* form label */
+.form-label {
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5rem;
+  color:white;
+}
 
 @-webkit-keyframes spin {
   0% {
@@ -1015,8 +1028,8 @@ hr {
 
 .cs-accent_btn {
   color: #fff;
-  background-color: #0052FF;
-  border-color: #0052FF;
+  background: linear-gradient(45deg, #3C2575,#7A0EF2, #CBA0F9);
+  border-color: #954DF0;
 }
 
 .cs-accent_btn:hover {
@@ -2812,7 +2825,7 @@ ul.cs-list.cs-style2 li:not(:last-child) {
     background-color: #fff;
     -webkit-box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
             box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
-    border-top: 3px solid #0052FF;
+    border-top: 3px solid #3C2575;
     padding: 10px 0;
     z-index: 100;
     opacity: 0;
@@ -3285,9 +3298,9 @@ li.menu-item-has-children
 }
 
 .cs-hero.cs-style1.cs-type2 {
-  padding: 80px 0;
+  /* padding: 80px 0; */
   min-height: initial;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .cs-hero.cs-style1.cs-type2 .cs-hero_img {
@@ -3749,7 +3762,7 @@ li.menu-item-has-children
 /* Slider Container */
 .slider-container {
   position: relative;
-  max-width: 1000px;
+  max-width: 1360px;
   margin: 0 auto;
   overflow: hidden;
   border: 2px solid #ccc;
@@ -3954,7 +3967,7 @@ li.menu-item-has-children
 }
 
 .cs-dark .cs-site_header.cs-style1.cs-sticky-active {
-  background-color: #0a2540;
+  background:rgba(0, 0, 0, 0.5);
 }
 
 .cs-dark .cs-hide_dark {
