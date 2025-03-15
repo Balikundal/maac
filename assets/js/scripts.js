@@ -8,7 +8,13 @@ Version      : 1.0
 	
 	jQuery(document).on('ready', function(){
 	
-		
+		/*PRELOADER JS*/
+		jQuery(window).on('load',function() {
+		  setTimeout(function() {
+				$('body').addClass('loaded');
+			}, 500);
+		});
+		/*END PRELOADER JS*/	
 			
 		/*START MENU JS*/				
 		$('#main-menu').slicknav({

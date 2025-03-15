@@ -1,4 +1,42 @@
-
+/*
+Author       : themes_mountain
+Template Name: Penn - Education HTML Template
+Version      : 1.0
+*/
+/*=============================================================
+    CSS INDEX
+    =============================
+    01. GENERAL STYLE (body, link color, section-title, preloader btn, overlay, section-padding etc)
+    02. START BOOTSTRAP NAVIGATION OVERRIDES
+    03. START HOMEPAGE CSS STYLE
+    04. START TOP PROMO DESIGN
+    05. START ABOUT CSS DESIGN
+    06. START COUNTER DESIGN
+    07. START FEATURES DESIGN
+    08. START COURSE DESIGN
+    09. START COURSE PROMOTION DESIGN
+    10. START TOPIC DESIGN
+    11. START REVIEWS DESIGN
+    12. START TEAM DESIGN
+    13. START BLOG DESIGN
+    14. START FOOTER DESIGN
+    15. START PARTNER DESIGN
+    16. START SECTION TOP DESIGN
+    17. START PRICING DESIGN
+    18. START EVENTS DESIGN
+    19. START FAQ DESIGN
+    20. START ERROR DESIGN
+    21. START LOGIN AND REGISTER DESIGN
+    22. START CONTACT DESIGN
+    23. START ABOUT PAGE DESIGN
+    23. START NEWSLETTER DESIGN
+    24. START FREE COURSE+INSTRUCTOR DESIGN
+  =============================================================*/
+/*
+* ----------------------------------------------------------------------------------------
+* 01.GENERAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
 body {
 	background-color: #000;
 	color: #888;
@@ -1646,7 +1684,7 @@ p.section-title-white {
 	position: relative;
 
 	width: 100%;
-	background-image: url('../maacimages/banner1.gif');
+	background-image: url(https://i.pinimg.com/originals/c7/c6/f7/c7c6f7e8b3506ea46261ab7b55fc9faf.gif);
 	background-size: cover;
 	background-position: center center;
 
