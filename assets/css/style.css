@@ -301,6 +301,26 @@ body {
 
 /* End Modal */
 
+@media screen and (max-width:800px){
+	div#myModal , div#wbmyModal, div#uiuxmyModal , div#fsmyModal,
+  div#dcmyModal , div#dmmyModal {
+		margin-top:12rem !important;
+		z-index:999999;
+	} 
+	div#myModal > div.graphic_content , div#wbmyModal > div.wb-content , div#uiuxmyModal > div.uiux-content , div#fsmyModal > div.fs-content,
+	div#dcmyModal > div.dc-content, div#dmmyModal > div.dm-content{
+		width:80%;
+	}
+	#ai_logo{
+		width: 30.333% !important;
+		position: fixed;
+		left: 53%;
+		top: -23% !important;
+		z-index:99999;
+	}
+
+}
+
 
 
 html,
