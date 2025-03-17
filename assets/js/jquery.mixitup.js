@@ -40,7 +40,7 @@
 			animation: {
 				enable: true,
 				effects: 'fade scale',
-				duration: 400,
+				duration: 600,
 				easing: 'ease',
 				perspectiveDistance: '3000',
 				perspectiveOrigin: '50% 50%',
@@ -907,11 +907,10 @@
 					if(self._chrome && (self._chrome === 31)){
 						chromeFix(self._$parent[0]);
 					}
-					
-					window.requestAnimationFrame(function() {
-						self._setInter();
-						phase2();
-					});
+
+					self._setInter();
+
+					phase2();
 				},
 				phase2 = function(){
 					var scrollTop = window.pageYOffset,
